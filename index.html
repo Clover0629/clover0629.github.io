@@ -4,53 +4,77 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>clover | Links</title>
+  <!-- Font: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #fdfbfb, #ebedee);
+      font-family: 'Poppins', sans-serif;
+      background-color: #0d0d0d;
+      color: #f0f0f0;
       display: flex;
       flex-direction: column;
       align-items: center;
       padding: 40px 20px;
+      min-height: 100vh;
     }
+
     .profile-pic {
       width: 100px;
       height: 100px;
       border-radius: 50%;
       margin-bottom: 10px;
       object-fit: cover;
+      border: 2px solid #888;
     }
+
     h1 {
       font-size: 24px;
       margin: 0 0 20px;
-      color: #222;
+      font-weight: 600;
+      letter-spacing: 1px;
     }
+
     a {
       display: block;
       width: 100%;
       max-width: 300px;
-      padding: 12px;
-      margin: 10px 0;
-      background-color: #222;
+      padding: 14px;
+      margin: 12px 0;
+      background: linear-gradient(135deg, #6a00ff, #8e2de2);
       color: #fff;
       text-decoration: none;
-      border-radius: 8px;
-      transition: background-color 0.3s;
+      border-radius: 10px;
+      font-weight: 500;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(138, 43, 226, 0.3);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
+
     a:hover {
-      background-color: #444;
+      transform: translateY(-3px);
+      box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
+    }
+
+    .footer {
+      margin-top: auto;
+      padding-top: 30px;
+      font-size: 12px;
+      opacity: 0.5;
     }
   </style>
 </head>
 <body>
-  <!-- Optional: tambahkan URL gambar kamu jika ada -->
-  <!-- <img src="https://i.imgur.com/yourimage.jpg" alt="Profile Picture" class="profile-pic" /> -->
+  <!-- OPTIONAL: Ganti gambar berikut kalau ada -->
+  <!-- <img src="https://i.imgur.com/YOURIMAGE.jpg" alt="Profile Picture" class="profile-pic" /> -->
 
   <h1>@clover</h1>
 
   <a href="https://clover06.gumroad.com" target="_blank">🛍️ Gumroad</a>
   <a href="https://lynk.id/n06digital" target="_blank">🔗 Lynk.id</a>
-  
-  <!-- Tambahkan link tambahan di sini nanti -->
+
+  <!-- Tambahkan link tambahan di bawah ini -->
+  <!-- <a href="#">🌟 Link Tambahan</a> -->
+
+  <div class="footer">Made with ❤️ by Clover</div>
 </body>
 </html>
